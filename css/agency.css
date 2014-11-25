@@ -17,6 +17,27 @@ body {
     color: #fed136;
 }
 
+
+#FAQlist li {
+    text-indent: -1.5em;
+}
+
+
+.question {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.question:hover {
+    color: #fed136;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    font-size: 16px;
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;

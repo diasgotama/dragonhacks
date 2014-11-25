@@ -26,3 +26,10 @@ jQuery('body').scrollspy({
 jQuery('.navbar-collapse ul li a').click(function() {
     jQuery('.navbar-toggle:visible').click();
 });
+
+jQuery('.question').click(function() {
+	var parent = jQuery(this).parent();
+	var answer = parent.find('.answer');
+
+	answer.slideToggle();
+})
