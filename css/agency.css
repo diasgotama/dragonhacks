@@ -302,6 +302,10 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
+#logo {
+    width: 60%;
+}
+
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -312,6 +316,9 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+    #logo {
+        width: 40%;
+    }
     header .intro-text {
         padding-top: 15%;
         padding-bottom: 200px;
