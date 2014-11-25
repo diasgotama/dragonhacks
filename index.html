@@ -572,6 +572,7 @@ Beginning of body
         <input type="hidden" name="formID" value="43215871963157" />
         <div class="modal-dialog">
           <div class="modal-content">
+            
             <div class="modal-header">
              <li id="cid_1" class="form-input-wide" data-type="control_head">
                 <div class="form-header-group" style="border-bottom:none;">
@@ -733,15 +734,7 @@ Beginning of body
                       <input class="form-upload validate[required]" type="file" id="input_7" name="q7_uploadYour" file-accept="pdf, doc, docx, xls, csv, txt, rtf, html, zip, mp3, wma, mpg, flv, avi, jpg, jpeg, png, gif" file-maxsize="10240" file-limit="0" />
                     </div>
                   </li>
-                  <li class="form-line" data-type="control_button" id="id_14">
-                    <div id="cid_14" class="form-input-wide">
-                      <div style="margin-left:156px" class="form-buttons-wrapper">
-                        <button id="input_14" type="submit" class="form-submit-button">
-                          Submit
-                        </button>
-                      </div>
-                    </div>
-                  </li>
+                  
                   <li style="display:none">
                     Should be Empty:
                     <input type="text" name="website" value="" />
@@ -752,19 +745,30 @@ Beginning of body
                   document.getElementById("si" + "mple" + "_spc").value = "43215871963157-43215871963157";
                   </script>
             </div>
+            <div class="modal-footer">
+                <li class="form-line" data-type="control_button" id="id_14">
+                    <div id="cid_14" class="form-input-wide">
+                      <div class="form-buttons-wrapper">
+                        <button id="input_14" type="submit" class="form-submit-button">
+                          Submit
+                        </button>
+                        <button type="button" data-dismiss="modal" class="btn btn-default" style="background: #fed136; color: #fff; font-weight: bold;">Close</button>
+                      </div>
+                    </div>
+                  </li>
+                
+                
+            </div>
           </div>
         </div>
         </form>
       </div>
 
-      <div id="sponsorModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" class="modal fade" style="display:none;">
-        <div class="modal-dialog">
+      <div id="sponsorModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" class="modal fade" style="margin: 0 auto; display:none;">
+        <div style="width: 65%" class="modal-dialog">
           <div class="modal-content">
-            <div class="modal-header">
-             
-            </div>
             <div class="modal-body">
-              
+              <embed src="Sponsorship_docs_v3.pdf" width="100%" height="500px" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
             </div>
           </div>
         </div>
