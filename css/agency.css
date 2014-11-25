@@ -262,8 +262,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    position: relative;
     text-align: center;
     color: #fff;
+    
+}
+
+#background_image {
     background-attachment: scroll;
     background-image: url(../img/Millenium2.jpg);
     background-position: center center;
@@ -272,11 +277,20 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .5;
 }
 
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    position: relative;
+    z-index: 1;
 }
 
 header .intro-text .intro-lead-in {
@@ -298,7 +312,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 15%;
         padding-bottom: 200px;
     }
 
