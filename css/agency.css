@@ -313,6 +313,7 @@ header .intro-text {
     padding-bottom: 50px;
     position: relative;
     z-index: 1;
+    color: #FFC600;
 }
 
 header .intro-text .intro-lead-in {
